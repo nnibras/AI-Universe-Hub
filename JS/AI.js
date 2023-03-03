@@ -72,7 +72,7 @@ sortBtn.addEventListener("click", function () {
       .then((data) => {
         cardContainer.innerHTML = "";
         cardsSorted(data, 12);
-        btnSeeMore.classList.remove("hidden");
+        btnSeeMore.classList.add("hidden");
       })
       .catch((error) => {
         console.log(error);
